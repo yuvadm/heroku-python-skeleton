@@ -1,4 +1,4 @@
-# Heroky Python Skeleton
+# Heroku Python Skeleton
 
 This repository has all the base files ready for deploying a Heroku application, including a simple database model managed with flask-sqlalchemy.
 
