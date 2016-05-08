@@ -16,11 +16,7 @@ $ git push heroku master
 ### Database
 
 ```bash
-$ heroku addons:add heroku-postgresql:dev
------> Adding heroku-postgresql:dev to some-app-name... done, v196 (free)
-Attached as HEROKU_POSTGRESQL_COLOR
-Database has been created and is available
-$ heroku pg:promote HEROKU_POSTGRESQL_COLOR
+$ heroku addons:create heroku-postgresql:hobby-dev
 $ heroku run python
 ```
 
