@@ -1,6 +1,10 @@
 # Heroku Python Skeleton
 
-This repository has all the base files ready for deploying a Heroku application, including a simple database model managed with flask-sqlalchemy.
+This repository has all the base files ready for deploying a Python application on Heroku. It includes the following features:
+
+ - Flask HTTP application
+ - SQLAlchemy model that binds to a Heroku Postgres database
+ - RESTful API based on Flask-RESTful and the Marshmallow serialization framework
 
 ## Usage
 
